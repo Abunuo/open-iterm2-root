@@ -18,7 +18,7 @@ function getWorkBenchRootDir(curPath: string): string {
 }
 function registerHandler(e: { fsPath: any }, type: number) {
   if (process.platform === "darwin") {
-    const scriptPath = path.join(__dirname, "../../res/open-item2.scpt");
+    const scriptPath = path.join(__dirname, "../res/open-item2.scpt");
     fs.stat(e.fsPath, (err: any, stats: { isFile: () => any }) => {
       if (err) {
         return;

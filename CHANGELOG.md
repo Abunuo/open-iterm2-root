@@ -4,6 +4,9 @@ All notable changes to the "open-iterm2-root" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.0.2]
+- fixed: applescript path
+
+## [1.0.0]
 
 - Initial release
